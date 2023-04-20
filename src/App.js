@@ -160,7 +160,7 @@ export default function Game() {
       <b>move {move}:</b> <i>row {turn[0]}, col {turn[1]}</i>
     </li>
   );
-console.log(movesHistory);
+
   const moves = history.map((squares, move) => {
     let description;
     if (move === currentMove) {
